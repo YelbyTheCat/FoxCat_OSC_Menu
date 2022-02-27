@@ -130,9 +130,14 @@ const App = () => {
       </Card>
       <Card className="mb-3 shadow">
         <Card.Body>
-          <pre>{JSON.stringify(parameters, 0, 2)}</pre>
+          <Card>
+            <Card.Body>
+              <pre>{JSON.stringify(parameters, 0, 2)}</pre>
+            </Card.Body>
+          </Card>
+
         </Card.Body>
-      </Card>
+      </Card >
     </Container >
   );
 }
