@@ -32,7 +32,7 @@ wss.on('connection', function connection(ws) {
     oscServer.on('message', async function (msg) {
       if  (msg[0] === '/avatar/change') {
         try {
-          const data = await readFile(`avatarconfigs/${msg[1]}.json`, "utf8");
+          const data = await readFile(`backend/avatarconfigs/${msg[1]}.json`, "utf8");
           const dataParsed = JSON.parse(data.replace(/^\uFEFF/, ''));
           ws.send(JSON.stringify({address: '/avatar/config', value: dataParsed}))
         } catch (e) {
