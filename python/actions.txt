@@ -1,0 +1,36 @@
+paramRoot = "/avatar/parameters/"
+inputRoot = "/input/"
+
+#Held Objects
+useItem = f'{inputRoot}UseAxisRight'
+grabItem = f'{inputRoot}GrabAxisRight'
+objectForwardBackward = f'{inputRoot}MoveHoldFB'
+spinClockCounter = f'{inputRoot}SpinHoldCwCcw'
+spinUpDown = f'{inputRoot}SpinHoldUD'
+spinLeftRight = f'{inputRoot}SpinHoldLR'
+#Movement
+forwardBackward = f'{inputRoot}Vertical'
+rightLeft = f'{inputRoot}Horizontal'
+lookHorizontal = f'{inputRoot}LookHorizontal'
+forward = f'{inputRoot}MoveForward'
+backward = f'{inputRoot}MoveBackward'
+strafeLeft = f'{inputRoot}MoveLeft'
+strafeRight = f'{inputRoot}MoveRight'
+rotateLeft = f'{inputRoot}LookLeft'
+rotateRight = f'{inputRoot}LookRight'
+jump = f'{inputRoot}Jump'
+run = f'{inputRoot}Run'
+# VR Only
+snapLeft = f'{inputRoot}ComfortLeft'
+snapRight = f'{inputRoot}ComfortRight'
+dropLeft = f'{inputRoot}DropLeft'
+dropRight = f'{inputRoot}DropRight'
+useLeft = f'{inputRoot}UseLeft'
+useRight = f'{inputRoot}useRight'
+grabLeft = f'{inputRoot}GrabLeft'
+grabRight = f'{inputRoot}GrabRight'
+#Other
+safety = f'{inputRoot}PanicButton'
+quickMenuLeft = f'{inputRoot}QuickMenuToggleLeft'
+quickMenuRight = f'{inputRoot}QuickMenuToggleRight'
+mute = f'{inputRoot}Voice'
