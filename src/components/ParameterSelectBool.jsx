@@ -1,10 +1,10 @@
 import propTypes from 'prop-types';
-import {useState} from 'react';
+import React from 'react';
 import Switch from 'react-switch';
 
 const ParameterSelectBool = ({ checked, onChange }) => {
     return (
-        <Switch checked={checked} onChange={onChange} />
+        <Switch {...{ checked, onChange }} />
     );
 };
 
@@ -15,7 +15,6 @@ ParameterSelectBool.defaultProps = {
 ParameterSelectBool.propTypes = {
     checked: propTypes.number,
     onChange: propTypes.func
-    
 }
 
 export default ParameterSelectBool;

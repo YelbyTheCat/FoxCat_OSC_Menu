@@ -1,8 +1,8 @@
 import propTypes from 'prop-types';
-import {useState} from 'react';
+import React from 'react';
 import RangeSlider from 'react-bootstrap-range-slider';
 
-const ParameterSelectFloat = ({defaultFloat, min, max, onChange, step, value}) => {
+const ParameterSelectFloat = ({ min, max, onChange, step, value }) => {
     const handleChange = (e) => {
         const float = parseFloat(e.target.value);
 
@@ -22,7 +22,6 @@ const ParameterSelectFloat = ({defaultFloat, min, max, onChange, step, value}) =
 };
 
 ParameterSelectFloat.defaultProps = {
-    defaultFloat: 0,
     min: -1,
     max: 1,
     step: .01,
@@ -30,7 +29,6 @@ ParameterSelectFloat.defaultProps = {
 }
 
 ParameterSelectFloat.propTypes = {
-    defaultFloat: propTypes.number,
     min: propTypes.number,
     max: propTypes.number,
     onChange: propTypes.func.isRequired,
