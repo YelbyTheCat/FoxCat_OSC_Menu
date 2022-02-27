@@ -13,7 +13,7 @@ ParameterSelectBool.defaultProps = {
 };
 
 ParameterSelectBool.propTypes = {
-    checked: propTypes.number,
+    checked: propTypes.bool,
     onChange: propTypes.func
 }
 

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Card, Col, Container, Form, Row, Tab, Tabs } from 'react-bootstrap';
-
-import { INPUTS_AXES, INPUTS_BUTTONS, INPUT_ROOT } from './constants';
+import Controls from './components/Controls';
 
 import ParameterSelectBool from './components/ParameterSelectBool';
 import ParameterSelectFloat from './components/ParameterSelectFloat';
@@ -53,15 +52,14 @@ const App = () => {
 
   return (
     <Container className="mt-3" fluid>
-      <Card className="mb-3 shadow">
+      <Card className="mb-3 shadow text-white" bg="dark">
         <Card.Body>
           <h5>
             FoxCat OSC Menu
           </h5>
-          <hr />
         </Card.Body>
       </Card>
-      <Card className="mb-3 shadow">
+      <Card className="mb-3 shadow" bg="light">
         <Card.Body>
           <Tabs>
             <Tab eventKey="param" title="Parameters">
@@ -88,23 +86,25 @@ const App = () => {
                       switch (parameter.output.type) {
                         case 'Bool':
                           return (
-                            <Col key={index} xs={6}>
-                              <Form.Label>Bool: {parameter.name}</Form.Label>
-                              <br />
-                              <ParameterSelectBool checked={!!parameters[`/avatar/parameters/${parameter.name}`]} onChange={(newValue) => handleChange(`/avatar/parameters/${parameter.name}`, newValue, false)} />
-                              <br />
+                            <Col className="d-flex" key={index} md={3} sm={6} xs={12}>
+                              <div>
+                                <ParameterSelectBool checked={!!parameters[`/avatar/parameters/${parameter.name}`]} onChange={(newValue) => handleChange(`/avatar/parameters/${parameter.name}`, newValue, false)} />
+                              </div>
+                              <div style={{ paddingLeft: ".5rem" }}>
+                                Bool: {parameter.name}
+                              </div>
                             </Col>
                           )
                         case 'Int':
                           return (
-                            <Col key={index} xs={6}>
+                            <Col key={index} md={3} sm={6} xs={12}>
                               <Form.Label>Integer: {parameter.name}</Form.Label>
                               <ParameterSelectInt onChange={(newValue) => handleChange(`/avatar/parameters/${parameter.name}`, newValue, false)} value={parameters[`/avatar/parameters/${parameter.name}`]} />
                             </Col>
                           )
                         case 'Float':
                           return (
-                            <Col key={index} xs={6}>
+                            <Col key={index} md={3} sm={6} xs={12}>
                               <Form.Label>Float: {parameter.name}</Form.Label>
                               <ParameterSelectFloat onChange={(newValue) => handleChange(`/avatar/parameters/${parameter.name}`, newValue, false)} value={parameters[`/avatar/parameters/${parameter.name}`]} />
                             </Col>
@@ -121,37 +121,19 @@ const App = () => {
                 </>
                 }
               </Form>
-              <pre>{JSON.stringify(parameters, 0, 2)}</pre>
             </Tab>
             <Tab eventKey="control" title="Controls">
-              <Form>
-                <Row>
-                  {INPUTS_AXES.map((input, index) => (
-                    <Col key={index} sm={3} xs={6}>
-                      <Form.Label>
-                        {input}
-                      </Form.Label>
-                      <ParameterSelectFloat onChange={(newValue) => handleChange(`${INPUT_ROOT}${input}`, newValue, false)} value={parameters[`${INPUT_ROOT}${input}`]} /> <br />
-                    </Col>
-                  ))}
-                </Row>
-                <Row>
-                  {INPUTS_BUTTONS.map((input, index) => (
-                    <Col key={index} sm={3} xs={6}>
-                      <ParameterSelectBool checked={!!parameters[`${INPUT_ROOT}${input}`]} className="pr-5" onChange={(newValue) => handleChange(`${INPUT_ROOT}${input}`, newValue, false)} />
-                      <Form.Label className="pl-2">
-                        {input}
-                      </Form.Label>
-                    </Col>
-                  ))}
-                </Row>
-              </Form>
-              <pre>{JSON.stringify(parameters, 0, 2)}</pre>
+              <Controls {...{ handleChange, parameters }} />
             </Tab>
           </Tabs>
         </Card.Body>
       </Card>
-    </Container>
+      <Card className="mb-3 shadow">
+        <Card.Body>
+          <pre>{JSON.stringify(parameters, 0, 2)}</pre>
+        </Card.Body>
+      </Card>
+    </Container >
   );
 }
 
