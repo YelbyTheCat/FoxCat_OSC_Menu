@@ -2,6 +2,7 @@
   "name": "vrc-osc-client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yelbythecat.github.io/FoxCat_OSC_Menu/",
   "dependencies": {
     "bootstrap": "^5.1.3",
     "node-osc": "6.1.14",
