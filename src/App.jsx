@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Card, Col, Container, Form, Row, Tab, Tabs } from 'react-bootstrap';
 import Controls from './components/Controls';
+import DynamicParameter from './components/DynamicParameter';
 
 import ParameterSelectBool from './components/ParameterSelectBool';
 import ParameterSelectFloat from './components/ParameterSelectFloat';
@@ -8,6 +9,7 @@ import ParameterSelectInt from './components/ParameterSelectInt';
 
 const App = () => {
   const [parameters, setParameters] = useState({});
+  console.log(parameters);
   const [avatarConfig, setAvatarConfig] = useState(null);
 
   const socket = useRef(null);
@@ -68,6 +70,7 @@ const App = () => {
                   <Form.Label>Collar</Form.Label>
                   <br />
                   <ParameterSelectBool checked={!!parameters['/avatar/parameters/BellChoker']} onChange={(newValue) => handleChange('/avatar/parameters/BellChoker', newValue, false)} value={parameters['/avatar/parameters/BellChoker']} />
+                  <DynamicParameter onChange={handleChange} handleChange = {handleChange} {...{parameters}} />
                   <br />
                   <Form.Label>Top</Form.Label>
                   <ParameterSelectInt max={10} onChange={(newValue) => handleChange('/avatar/parameters/top', newValue, false)} value={parameters['/avatar/parameters/top']} />
