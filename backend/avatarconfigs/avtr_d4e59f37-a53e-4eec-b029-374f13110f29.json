@@ -1,0 +1,286 @@
+﻿{
+  "id": "avtr_d4e59f37-a53e-4eec-b029-374f13110f29",
+  "name": "Flower Bunny 3․0",
+  "parameters": [
+    {
+      "name": "Accent",
+      "input": {
+        "address": "/avatar/parameters/Accent",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Accent",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Flight",
+      "input": {
+        "address": "/avatar/parameters/Flight",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/Flight",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "Sign",
+      "input": {
+        "address": "/avatar/parameters/Sign",
+        "type": "Int"
+      },
+      "output": {
+        "address": "/avatar/parameters/Sign",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "Overalls Color",
+      "input": {
+        "address": "/avatar/parameters/Overalls_Color",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Overalls_Color",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Bright",
+      "input": {
+        "address": "/avatar/parameters/Bright",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Bright",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Sat",
+      "input": {
+        "address": "/avatar/parameters/Sat",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Sat",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Hue",
+      "input": {
+        "address": "/avatar/parameters/Hue",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Hue",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Emojis",
+      "input": {
+        "address": "/avatar/parameters/Emojis",
+        "type": "Int"
+      },
+      "output": {
+        "address": "/avatar/parameters/Emojis",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "Colors",
+      "input": {
+        "address": "/avatar/parameters/Colors",
+        "type": "Int"
+      },
+      "output": {
+        "address": "/avatar/parameters/Colors",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "Props",
+      "input": {
+        "address": "/avatar/parameters/Props",
+        "type": "Int"
+      },
+      "output": {
+        "address": "/avatar/parameters/Props",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "viewpoint",
+      "input": {
+        "address": "/avatar/parameters/viewpoint",
+        "type": "Int"
+      },
+      "output": {
+        "address": "/avatar/parameters/viewpoint",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "VRCFaceBlendV",
+      "input": {
+        "address": "/avatar/parameters/VRCFaceBlendV",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/VRCFaceBlendV",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VRCFaceBlendH",
+      "input": {
+        "address": "/avatar/parameters/VRCFaceBlendH",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/VRCFaceBlendH",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VRCEmote",
+      "input": {
+        "address": "/avatar/parameters/VRCEmote",
+        "type": "Int"
+      },
+      "output": {
+        "address": "/avatar/parameters/VRCEmote",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "VelocityZ",
+      "output": {
+        "address": "/avatar/parameters/VelocityZ",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VelocityY",
+      "output": {
+        "address": "/avatar/parameters/VelocityY",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VelocityX",
+      "output": {
+        "address": "/avatar/parameters/VelocityX",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "InStation",
+      "output": {
+        "address": "/avatar/parameters/InStation",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "Seated",
+      "output": {
+        "address": "/avatar/parameters/Seated",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "AFK",
+      "output": {
+        "address": "/avatar/parameters/AFK",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "Upright",
+      "output": {
+        "address": "/avatar/parameters/Upright",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "AngularY",
+      "output": {
+        "address": "/avatar/parameters/AngularY",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Grounded",
+      "output": {
+        "address": "/avatar/parameters/Grounded",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "MuteSelf",
+      "output": {
+        "address": "/avatar/parameters/MuteSelf",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "VRMode",
+      "output": {
+        "address": "/avatar/parameters/VRMode",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "TrackingType",
+      "output": {
+        "address": "/avatar/parameters/TrackingType",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "GestureRightWeight",
+      "output": {
+        "address": "/avatar/parameters/GestureRightWeight",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "GestureRight",
+      "output": {
+        "address": "/avatar/parameters/GestureRight",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "GestureLeftWeight",
+      "output": {
+        "address": "/avatar/parameters/GestureLeftWeight",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "GestureLeft",
+      "output": {
+        "address": "/avatar/parameters/GestureLeft",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "Voice",
+      "output": {
+        "address": "/avatar/parameters/Voice",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Viseme",
+      "output": {
+        "address": "/avatar/parameters/Viseme",
+        "type": "Int"
+      }
+    }
+  ]
+}

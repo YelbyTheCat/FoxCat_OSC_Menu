@@ -1,0 +1,198 @@
+﻿{
+  "id": "avtr_91292669-4fc0-4c4d-b59b-08f29978641e",
+  "name": "BoomBot",
+  "parameters": [
+    {
+      "name": "Hue",
+      "input": {
+        "address": "/avatar/parameters/Hue",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Hue",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Mouth Pos",
+      "input": {
+        "address": "/avatar/parameters/Mouth_Pos",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Mouth_Pos",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Eye Horizontal",
+      "input": {
+        "address": "/avatar/parameters/Eye_Horizontal",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Eye_Horizontal",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Eye Vertical",
+      "input": {
+        "address": "/avatar/parameters/Eye_Vertical",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Eye_Vertical",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Eye Size",
+      "input": {
+        "address": "/avatar/parameters/Eye_Size",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/Eye_Size",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Boom",
+      "input": {
+        "address": "/avatar/parameters/Boom",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/Boom",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "VelocityZ",
+      "output": {
+        "address": "/avatar/parameters/VelocityZ",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VelocityY",
+      "output": {
+        "address": "/avatar/parameters/VelocityY",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VelocityX",
+      "output": {
+        "address": "/avatar/parameters/VelocityX",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "InStation",
+      "output": {
+        "address": "/avatar/parameters/InStation",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "Seated",
+      "output": {
+        "address": "/avatar/parameters/Seated",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "AFK",
+      "output": {
+        "address": "/avatar/parameters/AFK",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "Upright",
+      "output": {
+        "address": "/avatar/parameters/Upright",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "AngularY",
+      "output": {
+        "address": "/avatar/parameters/AngularY",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Grounded",
+      "output": {
+        "address": "/avatar/parameters/Grounded",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "MuteSelf",
+      "output": {
+        "address": "/avatar/parameters/MuteSelf",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "VRMode",
+      "output": {
+        "address": "/avatar/parameters/VRMode",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "TrackingType",
+      "output": {
+        "address": "/avatar/parameters/TrackingType",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "GestureRightWeight",
+      "output": {
+        "address": "/avatar/parameters/GestureRightWeight",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "GestureRight",
+      "output": {
+        "address": "/avatar/parameters/GestureRight",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "GestureLeftWeight",
+      "output": {
+        "address": "/avatar/parameters/GestureLeftWeight",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "GestureLeft",
+      "output": {
+        "address": "/avatar/parameters/GestureLeft",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "Voice",
+      "output": {
+        "address": "/avatar/parameters/Voice",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Viseme",
+      "output": {
+        "address": "/avatar/parameters/Viseme",
+        "type": "Int"
+      }
+    }
+  ]
+}

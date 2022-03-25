@@ -1,0 +1,264 @@
+﻿{
+  "id": "avtr_f5fec59f-32a9-47dc-9a9d-6694a24afdf8",
+  "name": "Rusk - KyButler's Foxtrot",
+  "parameters": [
+    {
+      "name": "Outfit_ThighHighs",
+      "input": {
+        "address": "/avatar/parameters/Outfit_ThighHighs",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/Outfit_ThighHighs",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "ColorAdjust_Saturation",
+      "input": {
+        "address": "/avatar/parameters/ColorAdjust_Saturation",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/ColorAdjust_Saturation",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "ColorAdjust_Reset",
+      "input": {
+        "address": "/avatar/parameters/ColorAdjust_Reset",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/ColorAdjust_Reset",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "ColorAdjust_HueShiftSpeed",
+      "input": {
+        "address": "/avatar/parameters/ColorAdjust_HueShiftSpeed",
+        "type": "Int"
+      },
+      "output": {
+        "address": "/avatar/parameters/ColorAdjust_HueShiftSpeed",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "ColorAdjust_HueShift",
+      "input": {
+        "address": "/avatar/parameters/ColorAdjust_HueShift",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/ColorAdjust_HueShift",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "ColorAdjust_Brightness",
+      "input": {
+        "address": "/avatar/parameters/ColorAdjust_Brightness",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/ColorAdjust_Brightness",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "AvatarDynamics",
+      "input": {
+        "address": "/avatar/parameters/AvatarDynamics",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/AvatarDynamics",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "LocoAlternative",
+      "input": {
+        "address": "/avatar/parameters/LocoAlternative",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/LocoAlternative",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "LocoSecondset",
+      "input": {
+        "address": "/avatar/parameters/LocoSecondset",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/LocoSecondset",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "StationaryEnable",
+      "input": {
+        "address": "/avatar/parameters/StationaryEnable",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/StationaryEnable",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "DisLocomotion",
+      "input": {
+        "address": "/avatar/parameters/DisLocomotion",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/DisLocomotion",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "VRCEmote",
+      "input": {
+        "address": "/avatar/parameters/VRCEmote",
+        "type": "Int"
+      },
+      "output": {
+        "address": "/avatar/parameters/VRCEmote",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "VelocityZ",
+      "output": {
+        "address": "/avatar/parameters/VelocityZ",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VelocityY",
+      "output": {
+        "address": "/avatar/parameters/VelocityY",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VelocityX",
+      "output": {
+        "address": "/avatar/parameters/VelocityX",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "InStation",
+      "output": {
+        "address": "/avatar/parameters/InStation",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "Seated",
+      "output": {
+        "address": "/avatar/parameters/Seated",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "AFK",
+      "output": {
+        "address": "/avatar/parameters/AFK",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "Upright",
+      "output": {
+        "address": "/avatar/parameters/Upright",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "AngularY",
+      "output": {
+        "address": "/avatar/parameters/AngularY",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Grounded",
+      "output": {
+        "address": "/avatar/parameters/Grounded",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "MuteSelf",
+      "output": {
+        "address": "/avatar/parameters/MuteSelf",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "VRMode",
+      "output": {
+        "address": "/avatar/parameters/VRMode",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "TrackingType",
+      "output": {
+        "address": "/avatar/parameters/TrackingType",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "GestureRightWeight",
+      "output": {
+        "address": "/avatar/parameters/GestureRightWeight",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "GestureRight",
+      "output": {
+        "address": "/avatar/parameters/GestureRight",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "GestureLeftWeight",
+      "output": {
+        "address": "/avatar/parameters/GestureLeftWeight",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "GestureLeft",
+      "output": {
+        "address": "/avatar/parameters/GestureLeft",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "Voice",
+      "output": {
+        "address": "/avatar/parameters/Voice",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Viseme",
+      "output": {
+        "address": "/avatar/parameters/Viseme",
+        "type": "Int"
+      }
+    }
+  ]
+}

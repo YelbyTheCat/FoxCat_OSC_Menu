@@ -1,0 +1,385 @@
+﻿{
+  "id": "avtr_aeed6dd8-4a7e-4dee-be48-dcbf804ff908",
+  "name": "Shapell PhysBonesTK Item",
+  "parameters": [
+    {
+      "name": "PBTF_RotationY",
+      "input": {
+        "address": "/avatar/parameters/PBTF_RotationY",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PBTF_RotationY",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PBTF_RotationX",
+      "input": {
+        "address": "/avatar/parameters/PBTF_RotationX",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PBTF_RotationX",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PBTF_PositionZ",
+      "input": {
+        "address": "/avatar/parameters/PBTF_PositionZ",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PBTF_PositionZ",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PBTF_PositionX",
+      "input": {
+        "address": "/avatar/parameters/PBTF_PositionX",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PBTF_PositionX",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PBTF_Scale",
+      "input": {
+        "address": "/avatar/parameters/PBTF_Scale",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PBTF_Scale",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PBTF_IsActive",
+      "input": {
+        "address": "/avatar/parameters/PBTF_IsActive",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/PBTF_IsActive",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "PB_MaxStretch",
+      "input": {
+        "address": "/avatar/parameters/PB_MaxStretch",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_MaxStretch",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PB_GrabMovement",
+      "input": {
+        "address": "/avatar/parameters/PB_GrabMovement",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_GrabMovement",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PB_AllowPosing",
+      "input": {
+        "address": "/avatar/parameters/PB_AllowPosing",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_AllowPosing",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "PB_AllowGrabbing",
+      "input": {
+        "address": "/avatar/parameters/PB_AllowGrabbing",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_AllowGrabbing",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "PB_MaxAngle_Narrow",
+      "input": {
+        "address": "/avatar/parameters/PB_MaxAngle_Narrow",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_MaxAngle_Narrow",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "PB_MaxAngle_Magnitude",
+      "input": {
+        "address": "/avatar/parameters/PB_MaxAngle_Magnitude",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_MaxAngle_Magnitude",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PB_FreezeAxisAngle",
+      "input": {
+        "address": "/avatar/parameters/PB_FreezeAxisAngle",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_FreezeAxisAngle",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PB_FreezeAxis",
+      "input": {
+        "address": "/avatar/parameters/PB_FreezeAxis",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_FreezeAxis",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "PB_AllowCollision",
+      "input": {
+        "address": "/avatar/parameters/PB_AllowCollision",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_AllowCollision",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "PB_CollisionRadius",
+      "input": {
+        "address": "/avatar/parameters/PB_CollisionRadius",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_CollisionRadius",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PB_GravityNegative",
+      "input": {
+        "address": "/avatar/parameters/PB_GravityNegative",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_GravityNegative",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "PB_GravityNarrow",
+      "input": {
+        "address": "/avatar/parameters/PB_GravityNarrow",
+        "type": "Bool"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_GravityNarrow",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "PB_GravityMagnitude",
+      "input": {
+        "address": "/avatar/parameters/PB_GravityMagnitude",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_GravityMagnitude",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PB_Immobile",
+      "input": {
+        "address": "/avatar/parameters/PB_Immobile",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_Immobile",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PB_Spring",
+      "input": {
+        "address": "/avatar/parameters/PB_Spring",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_Spring",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PB_Pull",
+      "input": {
+        "address": "/avatar/parameters/PB_Pull",
+        "type": "Float"
+      },
+      "output": {
+        "address": "/avatar/parameters/PB_Pull",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "PBTK_Command",
+      "input": {
+        "address": "/avatar/parameters/PBTK_Command",
+        "type": "Int"
+      },
+      "output": {
+        "address": "/avatar/parameters/PBTK_Command",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "VelocityZ",
+      "output": {
+        "address": "/avatar/parameters/VelocityZ",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VelocityY",
+      "output": {
+        "address": "/avatar/parameters/VelocityY",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "VelocityX",
+      "output": {
+        "address": "/avatar/parameters/VelocityX",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "InStation",
+      "output": {
+        "address": "/avatar/parameters/InStation",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "Seated",
+      "output": {
+        "address": "/avatar/parameters/Seated",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "AFK",
+      "output": {
+        "address": "/avatar/parameters/AFK",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "Upright",
+      "output": {
+        "address": "/avatar/parameters/Upright",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "AngularY",
+      "output": {
+        "address": "/avatar/parameters/AngularY",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Grounded",
+      "output": {
+        "address": "/avatar/parameters/Grounded",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "MuteSelf",
+      "output": {
+        "address": "/avatar/parameters/MuteSelf",
+        "type": "Bool"
+      }
+    },
+    {
+      "name": "VRMode",
+      "output": {
+        "address": "/avatar/parameters/VRMode",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "TrackingType",
+      "output": {
+        "address": "/avatar/parameters/TrackingType",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "GestureRightWeight",
+      "output": {
+        "address": "/avatar/parameters/GestureRightWeight",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "GestureRight",
+      "output": {
+        "address": "/avatar/parameters/GestureRight",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "GestureLeftWeight",
+      "output": {
+        "address": "/avatar/parameters/GestureLeftWeight",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "GestureLeft",
+      "output": {
+        "address": "/avatar/parameters/GestureLeft",
+        "type": "Int"
+      }
+    },
+    {
+      "name": "Voice",
+      "output": {
+        "address": "/avatar/parameters/Voice",
+        "type": "Float"
+      }
+    },
+    {
+      "name": "Viseme",
+      "output": {
+        "address": "/avatar/parameters/Viseme",
+        "type": "Int"
+      }
+    }
+  ]
+}

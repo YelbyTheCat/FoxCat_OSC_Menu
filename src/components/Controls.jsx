@@ -1,12 +1,12 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import { Col, Form, Row } from 'react-bootstrap';
+import {Col, Form, Row} from 'react-bootstrap';
 
-import { INPUTS_AXES, INPUTS_BUTTONS, INPUT_ROOT } from '../constants';
+import {INPUTS_AXES, INPUTS_BUTTONS, INPUT_ROOT} from '../constants';
 import ParameterSelectBool from './ParameterSelectBool';
 import ParameterSelectFloat from './ParameterSelectFloat';
 
-const Controls = ({ handleChange, parameters }) => (
+const Controls = ({handleChange, parameters}) => (
   <Form className="mt-3">
     <Row>
       {INPUTS_AXES.map((input, index) => (
@@ -25,7 +25,7 @@ const Controls = ({ handleChange, parameters }) => (
           <div>
             <ParameterSelectBool checked={!!parameters[`${INPUT_ROOT}${input}`]} className="pr-5" onChange={(newValue) => handleChange(`${INPUT_ROOT}${input}`, newValue, false)} />
           </div>
-          <div style={{ paddingLeft: ".5rem" }}>
+          <div style={{paddingLeft: ".5rem"}}>
             {input}
           </div>
         </Col>
